@@ -131,3 +131,39 @@ form > p { margin-top: 12px; color: #dc2626; font-weight: 600; }
 
 /* Trang chủ và chi tiết */
 .content > div > p { margin: 8px 0; font-size: 16px; }
+/* ===== Phóng to giao diện ===== */
+body { font-size: 18px; }
+
+/* Menu */
+.navbar { padding: 16px 40px; gap: 12px; }
+.navbar a { padding: 12px 24px; font-size: 18px; border-radius: 10px; }
+
+/* Khung nội dung */
+.content { max-width: 1200px; margin: 36px auto; }
+.page > div,
+.page > form { padding: 40px; border-radius: 16px; }
+h1 { font-size: 42px; margin-bottom: 24px; }
+.page > div > p { font-size: 20px; margin: 14px 0; }
+
+/* Bảng */
+th { font-size: 14px; }
+th, td { padding: 18px 16px; }
+td a { font-size: 18px; }
+
+/* Nút */
+button { padding: 12px 24px; font-size: 16px; border-radius: 10px; }
+td button { padding: 8px 18px; font-size: 16px; }
+
+/* Ô nhập và nhãn */
+label { font-size: 16px; }
+input, select { padding: 12px 16px; font-size: 16px; border-radius: 10px; }
+.filter-bar { gap: 24px; margin-bottom: 20px; }
+.filter-bar input { width: 260px; }
+
+/* Form thêm mới */
+form { max-width: 680px; }
+form > div { margin-bottom: 22px; }
+form > p { font-size: 17px; }
+
+/* Thông báo */
+.notice { padding: 14px 18px; font-size: 17px; }
