@@ -11,11 +11,12 @@ const ProductList = ({ products, onDelete, onUpdateStock }) => {
   const message = location.state?.message;
 
   useEffect(() => {
-    if (!message) return;
-    setNotice(message);
-    const timer = setTimeout(() => setNotice(""), 3000);
-    return () => clearTimeout(timer);
-  }, [message]);
+  if (!message) return;
+  setNotice(message);
+  window.history.replaceState({}, document.title);
+  const timer = setTimeout(() => setNotice(""), 3000);
+  return () => clearTimeout(timer);
+}, [message]);
 
   const handleQueryShift = (e) => setQuery(e.target.value);
   const handleCategoryChange = (e) => setCategory(e.target.value);
